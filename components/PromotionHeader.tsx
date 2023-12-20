@@ -24,7 +24,7 @@ function PromotionHeader() {
     };
   }, []);
   return (
-    <div className="py-4 bg-secondary-black flex basis-full justify-center items-center text-white">
+    <div className="py-4 bg-secondary-black flex basis-full justify-center items-center text-white text-sm">
       {text}
     </div>
   );
