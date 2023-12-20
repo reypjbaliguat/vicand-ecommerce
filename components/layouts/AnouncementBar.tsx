@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-function PromotionHeader() {
+function AnouncementBar() {
   const [text, setText] = useState("Fast shipping only in United States!");
   const textArr = [
     "Fast shipping only in United States!",
@@ -30,4 +30,4 @@ function PromotionHeader() {
   );
 }
 
-export default PromotionHeader;
+export default AnouncementBar;

@@ -1,5 +1,6 @@
-import PromotionHeader from "@/components/headers/PromotionHeader";
+import PromotionHeader from "@/components/layouts/AnouncementBar";
 import LandingPageHero from "@/components/layouts/LandingPageHero";
+import USPSection from "@/components/layouts/USPSection";
 import LandingPageNav from "@/components/navs/LandingPageNav";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <PromotionHeader />
       <LandingPageNav />
       <LandingPageHero />
+      <USPSection />
     </main>
   );
 }
