@@ -4,11 +4,10 @@ import { navMenus } from "../constants/navMenus";
 import Link from "next/link";
 import Icon from "@mdi/react";
 import { mdiAccountCircle, mdiMagnify, mdiShoppingOutline } from "@mdi/js";
-import { IconButton } from "@mui/material";
 
 function LandingPageNav() {
   return (
-    <div className="flex items-center justify-between h-20 px-24">
+    <nav className="flex items-center justify-between h-20 px-24">
       <Link href="/">
         <Image src={logo} width={121} height={24} alt="Vicand Logo" />
       </Link>
@@ -26,7 +25,7 @@ function LandingPageNav() {
         <Icon path={mdiAccountCircle} size={1} />
         <Icon path={mdiShoppingOutline} size={1} />
       </div>
-    </div>
+    </nav>
   );
 }
 

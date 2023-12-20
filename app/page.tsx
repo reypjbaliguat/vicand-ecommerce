@@ -6,7 +6,6 @@ export default function Home() {
     <main className="flex flex-col w-full h-full">
       <PromotionHeader />
       <LandingPageNav />
-      <h1 className="text-3xl">Testing</h1>
     </main>
   );
 }
