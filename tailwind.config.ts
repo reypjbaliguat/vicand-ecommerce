@@ -11,6 +11,9 @@ const config: Config = {
       backgroundColor: {
         "secondary-black": "#141414",
       },
+      backgroundImage: {
+        "hero-image": "url('../public/assets/hero-image.svg')",
+      },
     },
   },
   plugins: [],
