@@ -20,6 +20,7 @@ function LandingPageHero() {
             color: "#000000",
             width: 144,
             height: 48,
+            borderRadius: 2,
           }}
         >
           {" "}
@@ -31,6 +32,7 @@ function LandingPageHero() {
             border: "2px solid #ffffff",
             width: 144,
             height: 48,
+            borderRadius: 2,
           }}
         >
           {" "}

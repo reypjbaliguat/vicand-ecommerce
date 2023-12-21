@@ -13,6 +13,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-image": "url('../public/assets/hero-image.svg')",
+        "tshirt-image": "url('../public/assets/featured-category/tshirt.jpg')",
       },
     },
   },
