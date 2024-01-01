@@ -1,10 +1,17 @@
+"use client";
+
 import { Button } from "@mui/material";
-import tshirt from "@/public/assets/featured-category/tshirt.jpg";
-import Image from "next/image";
+import { items } from "../constants/featuredCategoryItems";
+import FeaturedCategoryItem from "./FeaturedCategoryItem";
+import { useState } from "react";
 
 function FeaturedCategory() {
+  const [selectedItem, setSelectedItem] = useState("Jacket");
+  const handleChangeSelect = (item: string) => {
+    setSelectedItem(item);
+  };
   return (
-    <div className="mt-[82px] flex basis-full px-24 flex-col">
+    <div className="mt-[82px] flex basis-full px-24 flex-col mb-10">
       <div className="flex justify-between mb-10">
         <h6 className="text-[28px] font-semibold">Featured Category</h6>
         <div className="flex gap-3">
@@ -32,15 +39,16 @@ function FeaturedCategory() {
           </Button>
         </div>
       </div>
-      <div className="flex">
-        <div className="flex w-[160px] h-[460px] bg-tshirt-image bg-cover bg-center relative flex-col justify-between">
-          <span className="text-xl text-white left-5 top-5 mt-5 ml-5">
-            Tshirt
-          </span>
-          <span className="text-xl text-white left-[50%] bottom-[14px] text-center mb-3">
-            Shop Now
-          </span>
-        </div>
+      <div className="flex items-stretch">
+        {items.map((item) => (
+          <FeaturedCategoryItem
+            key={item.label}
+            label={item.label}
+            imgName={item.imgName}
+            handleChangeSelect={handleChangeSelect}
+            selectedItem={selectedItem}
+          />
+        ))}
       </div>
     </div>
   );

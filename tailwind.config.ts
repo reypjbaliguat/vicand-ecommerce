@@ -14,6 +14,10 @@ const config: Config = {
       backgroundImage: {
         "hero-image": "url('../public/assets/hero-image.svg')",
         "tshirt-image": "url('../public/assets/featured-category/tshirt.jpg')",
+        "lower-image": "url('../public/assets/featured-category/lower.jpg')",
+        "bag-image": "url('../public/assets/featured-category/bag.jpg')",
+        "watch-image": "url('../public/assets/featured-category/watch.jpg')",
+        "jacket-image": "url('../public/assets/featured-category/jacket.jpg')",
       },
     },
   },
