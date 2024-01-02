@@ -11,7 +11,7 @@ function FeaturedCategory() {
     setSelectedItem(item);
   };
   return (
-    <div className="mt-[82px] flex basis-full px-24 flex-col mb-10">
+    <div className="mt-[82px] flex basis-full px-24 flex-col mb-20">
       <div className="flex justify-between mb-10">
         <h6 className="text-[28px] font-semibold">Featured Category</h6>
         <div className="flex gap-3">

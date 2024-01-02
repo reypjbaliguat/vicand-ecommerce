@@ -1,7 +1,7 @@
 export const items = [
-  { label: "Tshirt", imgName: "tshirt" },
-  { label: "Lower", imgName: "lower" },
-  { label: "Bag", imgName: "bag" },
-  { label: "Watch", imgName: "watch" },
-  { label: "Jacket", imgName: "jacket" },
+  { label: "Tshirt", imgName: "bg-tshirt-image" },
+  { label: "Lower", imgName: "bg-lower-image" },
+  { label: "Bag", imgName: "bg-bag-image" },
+  { label: "Watch", imgName: "bg-watch-image" },
+  { label: "Jacket", imgName: "bg-jacket-image" },
 ];
