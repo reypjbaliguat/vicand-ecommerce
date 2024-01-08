@@ -10,6 +10,10 @@ const config: Config = {
     extend: {
       backgroundColor: {
         "secondary-black": "#141414",
+        "product-gray": "#f7f7f7",
+      },
+      borderColor: {
+        "product-border": "#ebebeb",
       },
       backgroundImage: {
         "hero-image": "url('../public/assets/hero-image.svg')",
@@ -18,6 +22,8 @@ const config: Config = {
         "bag-image": "url('../public/assets/featured-category/bag.jpg')",
         "watch-image": "url('../public/assets/featured-category/watch.jpg')",
         "jacket-image": "url('../public/assets/featured-category/jacket.jpg')",
+        "man-1": "url('../public/assets/products/man_1.png')",
+        "man-2": "url('../public/assets/products/man_2.png')",
       },
     },
   },

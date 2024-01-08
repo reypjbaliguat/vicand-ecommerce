@@ -1,6 +1,7 @@
 import PromotionHeader from "@/components/layouts/AnouncementBar";
 import FeaturedCategory from "@/components/layouts/FeaturedCategory";
 import LandingPageHero from "@/components/layouts/LandingPageHero";
+import TopPicks from "@/components/layouts/TopPicks";
 import USPSection from "@/components/layouts/USPSection";
 import LandingPageNav from "@/components/navs/LandingPageNav";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <LandingPageHero />
       <USPSection />
       <FeaturedCategory />
+      <TopPicks />
     </main>
   );
 }
