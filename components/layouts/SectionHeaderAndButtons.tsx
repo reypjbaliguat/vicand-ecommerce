@@ -16,6 +16,7 @@ function SectionHeaderAndButtons({ label }: Props) {
             width: 112,
             height: 40,
             borderRadius: 2,
+            textTransform: "none",
           }}
         >
           Men
@@ -27,6 +28,7 @@ function SectionHeaderAndButtons({ label }: Props) {
             width: 112,
             height: 40,
             borderRadius: 2,
+            textTransform: "none",
           }}
         >
           Women

@@ -26,6 +26,7 @@ const config: Config = {
         "man-2": "url('../public/assets/products/man_2.png')",
         "man-1-back": "url('../public/assets/products/man_1_back.png')",
         "man-2-back": "url('../public/assets/products/man_2_back.png')",
+        "more-with-vicand": "url('../public/assets/more-with-vicand.png')",
       },
     },
   },
