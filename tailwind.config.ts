@@ -24,6 +24,8 @@ const config: Config = {
         "jacket-image": "url('../public/assets/featured-category/jacket.jpg')",
         "man-1": "url('../public/assets/products/man_1.png')",
         "man-2": "url('../public/assets/products/man_2.png')",
+        "man-1-back": "url('../public/assets/products/man_1_back.png')",
+        "man-2-back": "url('../public/assets/products/man_2_back.png')",
       },
     },
   },
