@@ -4,7 +4,7 @@ import LandingPageHero from "@/components/layouts/LandingPageHero";
 import LogoBanner from "@/components/layouts/LogoBanner";
 import MoreWithVicand from "@/components/layouts/MoreWithVicand";
 import NewArrival from "@/components/layouts/NewArrival";
-import PerfectAestheticWomen from "@/components/layouts/PerfectAestheticWomen";
+import PerfectAesthetic from "@/components/layouts/PerfectAesthetic";
 import Testimonial from "@/components/layouts/Testimonial";
 import TopPicks from "@/components/layouts/TopPicks";
 import USPSection from "@/components/layouts/USPSection";
@@ -22,8 +22,9 @@ export default function Home() {
       <LogoBanner />
       <MoreWithVicand />
       <NewArrival />
-      <PerfectAestheticWomen />
+      <PerfectAesthetic type="women" />
       <Testimonial />
+      <PerfectAesthetic type="men" />
     </main>
   );
 }

@@ -8,7 +8,7 @@ import TestimonialItem from "./TestimonialItem";
 
 function Testimonial() {
   return (
-    <div className="bg-testimonial bg-cover bg-center h-[600px] flex relative">
+    <div className="bg-testimonial bg-cover bg-center h-[600px] flex relative mb-[120px]">
       <div className="absolute flex flex-col px-24 h-[600px] w-full bg-[#212C38BD] z-10 text-white">
         <div className="flex justify-between my-10 items-center">
           <h6 className="text-[28px]">Testimonial</h6>
