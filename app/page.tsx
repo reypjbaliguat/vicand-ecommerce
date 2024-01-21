@@ -5,6 +5,7 @@ import LogoBanner from "@/components/layouts/LogoBanner";
 import MoreWithVicand from "@/components/layouts/MoreWithVicand";
 import NewArrival from "@/components/layouts/NewArrival";
 import PerfectAestheticWomen from "@/components/layouts/PerfectAestheticWomen";
+import Testimonial from "@/components/layouts/Testimonial";
 import TopPicks from "@/components/layouts/TopPicks";
 import USPSection from "@/components/layouts/USPSection";
 import LandingPageNav from "@/components/navs/LandingPageNav";
@@ -22,6 +23,7 @@ export default function Home() {
       <MoreWithVicand />
       <NewArrival />
       <PerfectAestheticWomen />
+      <Testimonial />
     </main>
   );
 }
