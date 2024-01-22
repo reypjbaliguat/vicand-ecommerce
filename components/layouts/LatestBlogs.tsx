@@ -4,7 +4,7 @@ import SectionHeaderAndButtons from "./SectionHeaderAndButtons";
 
 function LatestBlogs() {
   return (
-    <div className="flex basis-full px-24 flex-col mb-20">
+    <div className="flex basis-full px-24 flex-col mb-[120px]">
       <SectionHeaderAndButtons label={"Latest Blogs"} isViewAll={true} />
       <div className="flex gap-x-5 justify-between">
         {items.map((item) => (

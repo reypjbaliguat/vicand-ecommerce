@@ -1,5 +1,6 @@
 import PromotionHeader from "@/components/layouts/AnouncementBar";
 import FeaturedCategory from "@/components/layouts/FeaturedCategory";
+import FollowUsOnInstagram from "@/components/layouts/FollowUsOnInstagram";
 import LandingPageHero from "@/components/layouts/LandingPageHero";
 import LatestBlogs from "@/components/layouts/LatestBlogs";
 import LogoBanner from "@/components/layouts/LogoBanner";
@@ -27,6 +28,7 @@ export default function Home() {
       <Testimonial />
       <PerfectAesthetic type="men" />
       <LatestBlogs />
+      <FollowUsOnInstagram />
     </main>
   );
 }
