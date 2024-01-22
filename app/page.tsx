@@ -1,6 +1,7 @@
 import PromotionHeader from "@/components/layouts/AnouncementBar";
 import FeaturedCategory from "@/components/layouts/FeaturedCategory";
 import LandingPageHero from "@/components/layouts/LandingPageHero";
+import LatestBlogs from "@/components/layouts/LatestBlogs";
 import LogoBanner from "@/components/layouts/LogoBanner";
 import MoreWithVicand from "@/components/layouts/MoreWithVicand";
 import NewArrival from "@/components/layouts/NewArrival";
@@ -25,6 +26,7 @@ export default function Home() {
       <PerfectAesthetic type="women" />
       <Testimonial />
       <PerfectAesthetic type="men" />
+      <LatestBlogs />
     </main>
   );
 }
