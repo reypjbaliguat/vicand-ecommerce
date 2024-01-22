@@ -6,7 +6,7 @@ interface Props {
 }
 function SectionHeaderAndButtons({ label }: Props) {
   return (
-    <div className="flex justify-between mb-10">
+    <div className="flex basis-full justify-between mb-10">
       <h6 className="text-[28px] font-semibold">{label}</h6>
       <div className="flex gap-3">
         <Button
