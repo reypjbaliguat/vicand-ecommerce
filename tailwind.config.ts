@@ -13,6 +13,7 @@ const config: Config = {
         "product-gray": "#f7f7f7",
         "dark-blue": "#314356",
         "latest-blog-bg-cover": "rgba(0, 0, 0, 0.38)",
+        "footer-bg-blue": "#314356",
       },
       textColor: {
         "dark-blue": "#314356",

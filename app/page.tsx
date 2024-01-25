@@ -1,6 +1,7 @@
 import PromotionHeader from "@/components/layouts/AnouncementBar";
 import FeaturedCategory from "@/components/layouts/FeaturedCategory";
 import FollowUsOnInstagram from "@/components/layouts/FollowUsOnInstagram";
+import Footer from "@/components/layouts/Footer";
 import InstagramDescription from "@/components/layouts/InstagramDescription";
 import LandingPageHero from "@/components/layouts/LandingPageHero";
 import LatestBlogs from "@/components/layouts/LatestBlogs";
@@ -31,6 +32,7 @@ export default function Home() {
       <LatestBlogs />
       <FollowUsOnInstagram />
       <InstagramDescription />
+      <Footer />
     </main>
   );
 }

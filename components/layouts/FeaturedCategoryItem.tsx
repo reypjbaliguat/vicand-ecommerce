@@ -17,7 +17,7 @@ function FeaturedCategoryItem({
 }: Props) {
   return (
     <div
-      className={`relative transition-all ${
+      className={`relative ${
         selectedItem === label ? "grow-[8]" : "w-[160px] grow"
       }`}
       onClick={() => handleChangeSelect(label)}
