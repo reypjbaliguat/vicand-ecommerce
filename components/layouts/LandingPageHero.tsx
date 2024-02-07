@@ -14,17 +14,8 @@ function LandingPageHero() {
         minim mollit .
       </span>
       <div className="flex gap-5">
-        <Button
-          style={{
-            backgroundColor: "#ffffff",
-            color: "#000000",
-            width: 144,
-            height: 48,
-            borderRadius: 2,
-          }}
-        >
-          {" "}
-          Shop Women{" "}
+        <Button className="bg-white text-black w-[144px] h-[48px] rounded-[2px]">
+          <span className="font-semibold">Shop Women</span>
         </Button>
         <Button
           style={{
@@ -35,8 +26,7 @@ function LandingPageHero() {
             borderRadius: 2,
           }}
         >
-          {" "}
-          Shop Men{" "}
+          <span className="font-semibold"> Shop Men</span>
         </Button>
       </div>
     </section>
