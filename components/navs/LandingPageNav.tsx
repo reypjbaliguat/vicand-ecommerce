@@ -11,7 +11,6 @@ import { usePathname } from "next/navigation";
 
 function LandingPageNav() {
   const pathname = usePathname();
-  console.log({ pathname });
   return (
     <nav className="flex items-center justify-between h-20 px-24">
       <Link href="/">
